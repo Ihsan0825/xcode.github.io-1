@@ -1,0 +1,27 @@
+* {
+    margin: 0
+}
+
+body {
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+
+#main {
+background-color: aquamarine;
+padding: 25px;
+border: palegoldenrod 3px solid;
+height: 100vh
+}
+
+#content {
+background-color: rgb(140, 157, 110) ;
+border: tomato 5px solid;
+padding: 12px;
+height: 35vh
+}
+
+#intro {
+font-size: 20px;
+height: 25vh;
+}
