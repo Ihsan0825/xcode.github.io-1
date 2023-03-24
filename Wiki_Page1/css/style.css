@@ -1,20 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
 
-
 h1 {
-    color: salmon;
+    color: greenyellow;
     background-color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow';
     letter-spacing: 10px;
     text-align: center;
-    border: 4px bisque solid;
+    border: 4px turquoise solid;
     padding: 10px;
     margin: 20px;
-}
-
-body {
-    background-image: url("../Assets/Images/Cat-and-Butterfly1.png");
-    background-size: cover;
 }
  
 #intro {
@@ -24,5 +18,5 @@ body {
 }
 
 img {
-    float:right;
+    float:none;
 }
