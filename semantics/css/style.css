@@ -1,12 +1,10 @@
-{
-    margin: 0
-}
 body {
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
 }
 
 header {
+    margin: 0;
     background-color: aquamarine;
     padding: 15px;
     border: rgb(249, 229, 10) 5px solid;
