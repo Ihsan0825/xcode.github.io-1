@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+ul li {
+    display: inline
+}
+
+nav{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+ul{
+    padding-left: 0;
+}
+
+li a {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+li a:hover {
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
