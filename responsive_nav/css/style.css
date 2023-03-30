@@ -1,0 +1,47 @@
+body, ul{
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h3 {
+    
+}
+
+ul {
+    display:flex;
+    padding-left: 0;
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    justify-content: flex;
+    align-items: center;
+    height: 5vh;
+    gap: 50px;
+    padding: 20px;
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+.dropdown-menu {
+    background-color: darkgray;
+    position: absolute;
+    opacity: 0;
+}
+
+.trigger-dropdown:hover .dropdown-menu {
+    opacity: 1;
+}
+
+nav {
+    background-color: aqua;
+
+}
+
