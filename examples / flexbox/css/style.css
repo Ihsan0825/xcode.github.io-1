@@ -1,0 +1,25 @@
+.flex-container {
+    display: flex;
+    background-color: darkblue;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-end;
+    gap: 10px;
+}
+
+.item {
+    color: black;
+    height: 50px;
+    width: 50px;
+    background-color: lightblue;
+    margin: 5px;
+}
+/*
+#item1, #item6 {
+    flex-grow: 1;
+}
+
+#item3, #item4 {
+    align-self:flex-end
+}
