@@ -30,6 +30,86 @@ main {
     color: #444;
 }
 
+h2, p {
+    text-align: center
+}
+
+input {
+    padding:15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.name-inputs input {
+    width: 50%;
+}
+
+.name-inputs {
+    display:flex;
+    justify-content: center;
+}
+
+#emailPassword input {
+    width: 89%;
+}
+
+#emailPassword {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select {
+    padding: 15px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+#selects, #radio-btns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.radio {
+    display:flex;
+    justify-content: space-between;
+    border: 1px gray solid;
+    border-radius: 5px;
+    padding: 10px;
+    width: 25%;
+}
+
+labels {
+    text-align: left;
+}
+
+label p {
+    margin-left: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.radio label {
+    font-size: smaller;
+}
+
+#submitBtn {
+    border:none;
+    background-color: rgba(16,182, 16);
+    color: white;
+    font-weight: 600;
+}
+
+#signup {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#emailPassword {
+
+}
+
 @media screen and (max-width: 1200px) {
     main {
         grid-template-columns: 20% 60% 20%;
