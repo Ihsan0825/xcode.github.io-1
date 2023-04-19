@@ -39,7 +39,7 @@ header {
   width:15%;
 }
 nav {
-  border-bottom: 2px solid #2e4c83;
+  border-bottom: 2px solid #E2A379;
   background-color:#f8feff;
   position:sticky;
   top:0px;
@@ -60,7 +60,7 @@ nav li {
   list-style-type: none;
 }
 nav a {
-  color:#192e55;
+  color:#D36922;
   text-decoration: none;
   padding:5px 20px;
   padding-left:2.5px;
@@ -71,7 +71,7 @@ nav a::before {
   padding-right:5px;
 }
 nav a:hover {
-  background-color: #192e55;
+  background-color: #D36922;
   color:#f8feff;
 }
 .nav-contact {
@@ -82,7 +82,7 @@ nav a:hover {
   width:33%;
 }
 .nav-contact:hover {
-  color:#192e55;
+  color:#D36922;
 }
 .nav-contact ion-icon{
   margin-right:10px;
@@ -109,7 +109,7 @@ nav a:hover {
   margin:0px;
 }
 #site_logo:hover,.site_title:hover,.site_quote:hover {
-  color:#192e55;
+  color:#D36922;
   cursor:pointer;
 }
 
@@ -140,7 +140,8 @@ img {
 
 .hero-text {
   font-family: 'Lobster', cursive; 
-  color: ;
+  color: #D36922;
+  text-shadow: 2px 5px 6px rgba(0, 0, 0, 1);
 }
 
 .hero-text h2 {
@@ -155,9 +156,9 @@ img {
 
 .content {
   background-color: #f8feff;
-  border:2px solid #2e4c83;
+  border:2px solid #24c043;
   padding:15px;
-  color:#2e4c83;
+  color:#D36922;
   box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.3);
   margin:50px 0px;
 }
@@ -171,7 +172,7 @@ img {
   font-weight: bold;
 }
 .content-subhead {
-  border-bottom: 1px solid #2e4c83;
+  border-bottom: 1px solid #24c043;
   margin:0;
   text-align: center;
   margin-bottom:25px;
@@ -189,27 +190,30 @@ img {
 .footer-hat {
   height:30px;
   background-color: #f8feff;
-  border-top:2px solid #2e4c83;
+  border-top:2px solid #D36922;
 }
 footer {
   background-color: #f8feff;
   padding:25px;
-  border-top:2px dashed #2e4c83;
+  border-top:2px dashed #D36922;
   box-sizing: border-box;
   display:flex;
 }
 footer h4, footer h5, footer h6 {
   font-family: "Bebas Neue";
   margin:0;
+  color:#D36922;
 
 }
 .footer-left {
   flex: 1;
   margin-bottom:50px;
+  color:#D36922;
 }
 .footer-right {
   flex:3;
   margin-left:25px;
+  color: #D36922;
 }
 footer h4 {
   font-size: 2em;
@@ -225,7 +229,7 @@ footer h4 {
 .footer-feet {
   background-color: #f8feff;
   height:40px;
-  border-top: 2px dashed #2e4c83;
+  border-top: 2px dashed #D36922;
 
   display:flex;
   align-items: center;
