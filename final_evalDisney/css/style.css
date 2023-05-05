@@ -14,14 +14,16 @@ body, main, nav, header {
 
 body {
   margin:0;
-  color: white;
+  color: #040714;
 }
 
 a {
-  color: white;
+  color: #040714;
 }
 
 header {
+  height: 100vh;
+  background-color: #040714;
   background-image: url(../assets/branding/disney+bg.jpeg);
   display: flex;
   flex-direction: column;
@@ -39,80 +41,60 @@ header {
   height: 8vh;
 }
 
+#hulu-disney {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 4vh;
+}
+
+#hulu-disney-espn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 4vh;
+}
+
+#nav button {
+  background-color: rgb(0, 166, 255);
+}
+
+#hulu-disney-espn button {
+  background-color: rgb(0, 166, 255);
+}
+
+#hulu-disney button {
+  background-color: rgb(0, 166, 255);
+  font-size: large;
+}
+
+#info {
+  color: rgb(190, 190, 190);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#info1 {
+  font-size: smaller;
+  color: rgb(190, 190, 190);
+}
+
+#info1 a {
+  color: rgb(190, 190, 190);
+}
+
 nav {
-  border-bottom: 2px solid #E2A379;
-  background-color:#f8feff;
-  position:sticky;
+  background-color:#040714;
+  position:fixed;
   top:0px;
   box-shadow: 0px 3px 3px 0px rgb(0,0,0,0.3);
   display:flex;
   justify-content: space-between;
   z-index: 99;
   font-weight: 500;
-}
-
-nav ul {
-  display:flex;
-  padding-left:0;
-  margin:0px;
-  font-family: "AvenirLTStd-Roman";
-}
-
-nav li {
-  list-style-type: none;
-}
-nav a {
-  color:#D36922;
-  text-decoration: none;
-  padding:5px 20px;
-  padding-left:2.5px;
-  display:inline-block;
-}
-nav a::before {
-  content:"|";
-  padding-right:5px;
-}
-nav a:hover {
-  background-color: #D36922;
-  color:#f8feff;
-}
-.nav-contact {
-  display:flex;
-  justify-content: flex-end;
-  align-items: center;
-  height:auto;
-  width:33%;
-}
-.nav-contact:hover {
-  color:#D36922;
-}
-.nav-contact ion-icon{
-  margin-right:10px;
-}
-.nav-contact p {
-  margin:0;
-  margin-right: 10px;
-}
-
-#site_logo {
-  width:100%;
-}
-.site_title {
-  font-family: "AvenirLTStd-Black";
-  font-size: 4em;
-  font-weight: 900;
-  margin-bottom:0;
-}
-.site_quote {
-  font-size: 1em;
-  text-align: right;
-  font-style: italic;
-  font-weight: 600;
-  margin:0px;
-}
-#site_logo:hover,.site_title:hover,.site_quote:hover {
-  color:#D36922;
-  cursor:pointer;
 }
 
 
@@ -125,34 +107,16 @@ main {
   height:30vh;
 }
 
-img {
-  height:100%;
-}
-
-.hero-text {
-  font-family: 'AvenirLTStd-Black'; 
-  color: #D36922;
-  text-shadow: 2px 5px 6px rgba(0, 0, 0, 1);
-}
-
-.hero-text h2 {
-  font-size: 75px;
-}
-
-.hero-text h4 {
-  font-size: 40px;
+nav img {
+  height:8%;
 }
 
 /* contents: */
 
-.content {
-  background-color: #f8feff;
-  border:2px solid #24c043;
-  padding:15px;
-  color:#D36922;
-  box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.3);
-  margin:50px 0px;
+.h3 {
+  color: rgb(190, 190, 190);
 }
+
 .content-header {
   font-size: 42pt;
   font-family: "AvenirLTStd-Roman";
@@ -163,69 +127,42 @@ img {
   font-weight: bold;
 }
 
+.gallery {
+  display: column;
+  align-items:center;
+  justify-content: center;
+}
+
 /* Footer ~~~~~~~ */
 
-footer {
-  background-color: #f8feff;
+#footer {
+  background-color: #040714;
   padding:25px;
-  border-top:2px dashed #D36922;
-  box-sizing: border-box;
   display:flex;
   font-family: "AvenirLTStd-Roman";
-}
-footer h4, footer h5, footer h6 {
-  font-family: "AvenirLTStd-Roman";
-  margin:0;
-  color:#D36922;
-
-}
-.footer-left {
-  flex: 1;
-  margin-bottom:50px;
-  color:#D36922;
-}
-.footer-right {
-  flex:3;
-  margin-left:25px;
-  color: #D36922;
-}
-footer h4 {
-  font-size: 2em;
-}
-.footer-right h6 {
-  font-size: 1.5em;
-}
-.footer-right p {
-  margin-left: 15px;
-  margin-top: 10px;
-}
-
-.footer-feet {
-  background-color: #f8feff;
-  height:40px;
-  border-top: 2px dashed #D36922;
-
-  display:flex;
   align-items: center;
-  justify-content: space-between;
-  padding:10px;
-  font-size: 8pt;
+  justify-content: center;
 }
 
-.footer-feet p {
-  margin:0;
+#footer img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  size: 1;
 }
 
-/* Special typography */
-
-.dropcap {
-  float:left;
-  font-size:42pt;
-  margin-top: -5px;
-  line-height: 0.65;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-  font-family: "Bebas Neue";
-  font-weight: bold;
+#footer1, footer2, footer3, footer4 {
+  color: rgb(190, 190, 190);
 }
 
+#footer1 {
+  color: rgb(190, 190, 190);
+}
+
+#footer3 {
+  color: rgb(190, 190, 190);
+}
+
+#footer4 {
+  color: rgb(190, 190, 190);
+}
